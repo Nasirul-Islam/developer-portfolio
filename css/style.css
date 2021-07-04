@@ -57,10 +57,51 @@ body{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 900px;
+    height: 800px;
 }
 /* second section end */
 
 /* third section start */
+.Experiences h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.Experiences{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 600px;
+}
+.exp_main h3 {
+    color: orange;
+}
+.exp_inner {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 40px grey;
+}
+
+#exp_inner_fst{
+    border-left: 10px solid red;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#exp_inner_sec{
+    border-left: 10px solid red;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.Experiences div{
+    
+    height: 80%;
+}
+
+footer p{
+    text-align: center;
+}
 
 /* third section end */
